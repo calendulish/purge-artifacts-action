@@ -1,12 +1,3 @@
-# No longer maintained
-
-This project was created as temporary solution to problem I saw a lot of people to have but it seems people at github have no intention of fixing and neither do I.
-I recommend looking at other projects or you could use this as starting point for your own action.
-
-You could also +1 [this issue](https://github.com/actions/upload-artifact/issues/290)
-
-or take a look at this comment from the same issue https://github.com/actions/upload-artifact/issues/290#issuecomment-1374207010
-
 # Delete artifacts action
 
 Action responsible for deleting old artifacts by setting expire duration.
@@ -72,4 +63,6 @@ Even if the action succeeded, it will take a few more minutes for the artifacts 
 
 ## Contributing
 
-I would take a look at other maintained projects and contribute to them.
+There are few improvements to be made, namely
+- More delete strategies (name, size, number of occurences, regex match on name etc..)
+- Better test coverage
