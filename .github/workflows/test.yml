@@ -29,6 +29,8 @@ jobs:
           yarn
           yarn run all
   test:
+    permissions:
+      actions: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
